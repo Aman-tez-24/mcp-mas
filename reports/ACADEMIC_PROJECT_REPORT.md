@@ -1,9 +1,10 @@
 # Multi-Agent Research and Report Generation System Using the Model Context Protocol (MCP)
 
 **Academic Project Report and Technical Specification**  
-**Author:** Senior AI Systems Engineer & Academic Research Team  
+**Student Name:** Aman Tez  
+**Roll No.:** 2023008195  
 **Institution:** Department of Computer Science & Information Engineering  
-**Version:** 1.0.0 (Production Release)  
+**Version:** 1.0.0 (Academic Submission Release)  
 **Date:** November 2026  
 
 ---

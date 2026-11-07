@@ -434,8 +434,8 @@ def build_full_html(body_html: str) -> str:
   <h1>Multi-Agent Research & Report Generation System</h1>
   <div style="font-size: 13pt; font-weight: 300;">Architectural Design, Model Context Protocol (MCP) Integration, and Empirical Evaluation</div>
   <div class="cover-meta">
-    <div><strong>Author:</strong> Senior AI Systems Engineer & Academic Research Team</div>
-    <div><strong>Release:</strong> v1.0.0 (Production) • Nov 2026</div>
+    <div><strong>Student:</strong> Aman Tez &nbsp;|&nbsp; <strong>Roll No.:</strong> 2023008195</div>
+    <div><strong>Dept. of Computer Science & Information Engineering</strong> &nbsp;•&nbsp; Nov 2026</div>
   </div>
 </div>
 
