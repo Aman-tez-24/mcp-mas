@@ -1,0 +1,9 @@
+{
+  "document_id": "DOC-005",
+  "title": "Evaluation Frameworks and Hallucination Mitigation in Multi-Agent AI",
+  "source": "IEEE Transactions on Reliable Artificial Intelligence 2024",
+  "source_quality": 0.96,
+  "category": "evaluation_methodology",
+  "published_date": "2024-05-18",
+  "content": "Hallucination in LLM research assistants is classified into ungrounded claims, citation mismatches, and false-premise acceptances. A robust multi-agent architecture incorporates layered verification: 1) Evidence Presence (L1): Factual claims must reference explicit evidence IDs; 2) Natural Language Entailment (L2): Claims must logically follow from retrieved evidence snippets; 3) Contradiction Checking (L3): Conflicting evidence across documents must trigger an explicit conflict notification; 4) Closed-world testing (L5): When evidence is missing, the system must declare 'insufficient evidence' rather than interpolating plausibly. Target benchmarks for student/academic projects specify Groundedness >= 0.90 (90%), Unsupported Claim Rate <= 0.10, and Citation Correctness >= 0.90."
+}

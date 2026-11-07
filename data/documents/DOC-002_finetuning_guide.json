@@ -1,0 +1,9 @@
+{
+  "document_id": "DOC-002",
+  "title": "Fine-Tuning Large Language Models for Domain Adaptation",
+  "source": "Hu et al. (LoRA) & AI System Engineering Guide 2024",
+  "source_quality": 0.92,
+  "category": "technical_architecture",
+  "published_date": "2024-01-20",
+  "content": "Fine-tuning modifies the internal parametric weights of a pre-trained language model on a curated domain-specific dataset, often via parameter-efficient techniques like Low-Rank Adaptation (LoRA) or full parameter tuning. Strengths: 1) Teaches specific tone, output formatting, vocabulary, and stylized communication; 2) Eliminates the latency of external search retrieval during generation; 3) Reduces prompt token overhead. Limitations: 1) Prone to catastrophic forgetting of broader reasoning abilities; 2) Static knowledge cutoff; cannot learn new information without retraining; 3) Prone to confident hallucinations on changing or unobserved facts; 4) High compute cost (training requires dedicated GPU hours like A100/H100 clusters costing $50 to $500 per fine-tuning iteration)."
+}

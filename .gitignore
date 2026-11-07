@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment and secrets
+.env
+*.local.env
+
+# Model weights and caches
+.ollama/
+models/
+*.bin
+*.onnx
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dynamic run artifacts
+results/runs/*.json
+!results/runs/.gitkeep

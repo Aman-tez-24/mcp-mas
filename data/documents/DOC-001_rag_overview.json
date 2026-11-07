@@ -1,0 +1,9 @@
+{
+  "document_id": "DOC-001",
+  "title": "Retrieval-Augmented Generation (RAG) Architecture and Mechanics",
+  "source": "Lewis et al., 2020 / CS Technical Report on Neural Information Retrieval",
+  "source_quality": 0.95,
+  "category": "technical_architecture",
+  "published_date": "2023-11-15",
+  "content": "Retrieval-Augmented Generation (RAG) combines pre-trained parametric language models with non-parametric retrieval memory. In a standard RAG pipeline, a user query is first embedded or tokenized to search an external document store (using lexical BM25 or dense vector embeddings). Top-k relevant passages are concatenated into the prompt context sent to the generator LLM. Key advantages: 1) Knowledge is dynamically updatable without retraining model weights; 2) Verifiable citations to source documents can be provided for factual auditability; 3) Significantly lower hallucination rate on domain-specific facts. Latency: Introduces an additional 100ms-400ms search overhead per query. Computational cost: Primarily indexing and embedding storage, avoiding continuous high-end GPU training costs."
+}

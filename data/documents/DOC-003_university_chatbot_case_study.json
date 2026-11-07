@@ -1,0 +1,9 @@
+{
+  "document_id": "DOC-003",
+  "title": "Case Study: University Chatbots and Dynamic Academic Support",
+  "source": "Higher Education Computing Conference Proceedings 2024",
+  "source_quality": 0.90,
+  "category": "case_study",
+  "published_date": "2024-03-10",
+  "content": "University chatbots assist students with admissions, course registration, tuition deadlines, degree requirements, and campus policies. A comparative trial conducted at Eastern State University evaluated RAG vs Fine-Tuning across 1,200 student inquiries: 1) Factual policy accuracy: The RAG assistant scored 92.4% factual accuracy compared to 48.1% for the fine-tuned model without retrieval, because university course catalogs and semester schedules change frequently; 2) Auditability: RAG allowed academic advisors to verify the exact document paragraph cited, reducing compliance disputes by 85%; 3) Hybrid recommendation: Best industry practice utilizes fine-tuning exclusively for institutional tone and conciseness, while relying entirely on RAG for grounding facts in official university regulations."
+}

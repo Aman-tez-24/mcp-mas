@@ -1,0 +1,9 @@
+{
+  "document_id": "DOC-004",
+  "title": "Cost, Latency, and Infrastructure Trade-offs for Campus AI Deployments",
+  "source": "ACM SIGCSE Educational Computing Systems Report 2024",
+  "source_quality": 0.94,
+  "category": "cost_latency_tradeoffs",
+  "published_date": "2024-04-05",
+  "content": "Deploying campus conversational AI requires balancing latency, variable inference costs, and fixed infrastructure overhead. In a study of 50,000 monthly queries: RAG average response latency is 1.62 seconds (including 220ms vector/BM25 retrieval), with total infrastructure hosting costs of $120 per month on commodity CPU servers. In contrast, fine-tuning an 8-billion parameter model requires 40 GPU hours per update cycle (costing roughly $240 per fine-tuning run), and still suffers from severe hallucination when policies change mid-semester. For university IT budgets, RAG provides an estimated 65% lower Total Cost of Ownership (TCO) across a 12-month academic lifecycle while guaranteeing live document updates."
+}
