@@ -619,3 +619,11 @@ eval-TC-36-baseline,2026-11-07T16:55:17.858172,True,What percentage reduction in
 2026-11-07-170005-5,2026-11-07T17:00:05.080784,False,Compare RAG and fine-tuning for a university chatbot.,2350,0.0,18.32,1.0,0.0,4
 baseline-2026-11-07-170005,2026-11-07T17:00:05.109331,True,Compare RAG and fine-tuning for a university chatbot.,128,0.0,0.06,0.55,0.45,0
 2026-11-07-170058-58,2026-11-07T17:00:58.889618,False,Compare retrieval-augmented generation (RAG) and fine-tuning,2405,0.0,73.95,1.0,0.0,5
+2026-11-07-170330-210,2026-11-07T17:03:30.490417,False,Compare RAG and fine-tuning for a university chatbot.,2519,0.0,53450.61,1.0,0.0,5
+2026-11-07-170834-514,2026-11-07T17:08:34.156305,False,Compare retrieval-augmented generation (RAG) and fine-tuning,2402,0.0,286.56,1.0,0.0,5
+2026-11-07-170818-498,2026-11-07T17:08:18.426258,False,What time does the Central Science Library close on weekdays,1215,0.0,48015.04,0.25,0.75,5
+2026-11-07-171009-609,2026-11-07T17:10:09.997420,False,What are the student government voting rules according to DO,1958,0.0,16.24,1.0,0.0,5
+2026-11-07-171010-610,2026-11-07T17:10:10.017241,False,What was the final score of the 1923 campus football champio,665,0.0,2.99,1.0,0.0,2
+2026-11-07-171010-610,2026-11-07T17:10:10.022477,False,Why did the university chatbot win the 2024 Nobel Prize in L,613,0.0,3.86,1.0,0.0,3
+2026-11-07-171010-610,2026-11-07T17:10:10.042611,False,Compare RAG and fine-tuning for a university chatbot.,2348,0.0,5.82,1.0,0.0,4
+baseline-2026-11-07-171010,2026-11-07T17:10:10.051777,True,Compare RAG and fine-tuning for a university chatbot.,128,0.0,0.03,0.55,0.45,0

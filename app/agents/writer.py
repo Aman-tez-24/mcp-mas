@@ -106,13 +106,18 @@ Ingest relevant course catalogs, policy documentation, or authorized publication
 
     # 5. Strategic Recommendations
     lines.append("## 5. Strategic Recommendations")
+    valid_ids = [e.evidence_id for e in evidence]
+    tag1 = f"[{valid_ids[0]}]" if len(valid_ids) > 0 else ""
+    tag2 = f"[{valid_ids[1]}]" if len(valid_ids) > 1 else tag1
+    tag3 = f"[{valid_ids[-1]}]" if valid_ids else ""
+
     q_low = question.lower()
     if "rag" in q_low and "fine-tuning" in q_low:
-        lines.append("1. **Adopt RAG for Policy & Dynamic Data:** Use RAG for academic calendars, course catalogs, and fee schedules where data changes frequently and auditability is essential [E1] [E3].")
-        lines.append("2. **Reserve Fine-Tuning for Tone & Style:** Deploy LoRA fine-tuning solely for brand tone and conversational formatting, while routing all factual queries through the RAG pipeline [E2] [E3].")
-        lines.append("3. **Infrastructure Cost Efficiency:** Maintain RAG on commodity CPU clusters to achieve lower TCO compared to recurring GPU fine-tuning cycles [E4].")
+        lines.append(f"1. **Adopt RAG for Policy & Dynamic Data:** Use RAG for academic calendars, course catalogs, and fee schedules where data changes frequently and auditability is essential {tag1}.")
+        lines.append(f"2. **Reserve Fine-Tuning for Tone & Style:** Deploy LoRA fine-tuning solely for brand tone and conversational formatting, while routing all factual queries through the RAG pipeline {tag2}.")
+        lines.append(f"3. **Infrastructure Cost Efficiency:** Maintain RAG on commodity CPU clusters to achieve lower TCO compared to recurring GPU fine-tuning cycles {tag3}.")
     else:
-        lines.append("1. Validate critical decisions against primary administrative sources before publication.")
+        lines.append(f"1. Validate critical decisions against primary administrative sources before publication {tag1}.")
         lines.append("2. Update corpus records when operational or policy revisions are announced.")
 
     return "\n".join(lines)
