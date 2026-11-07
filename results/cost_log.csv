@@ -618,3 +618,4 @@ eval-TC-36-baseline,2026-11-07T16:55:17.858172,True,What percentage reduction in
 2026-11-07-170004-4,2026-11-07T17:00:04.968796,False,Why did the university chatbot win the 2024 Nobel Prize in L,613,0.0,8.11,1.0,0.0,3
 2026-11-07-170005-5,2026-11-07T17:00:05.080784,False,Compare RAG and fine-tuning for a university chatbot.,2350,0.0,18.32,1.0,0.0,4
 baseline-2026-11-07-170005,2026-11-07T17:00:05.109331,True,Compare RAG and fine-tuning for a university chatbot.,128,0.0,0.06,0.55,0.45,0
+2026-11-07-170058-58,2026-11-07T17:00:58.889618,False,Compare retrieval-augmented generation (RAG) and fine-tuning,2405,0.0,73.95,1.0,0.0,5
