@@ -143,7 +143,7 @@ mas-mcp/
 
 ```powershell
 # 1. Clone repository and navigate to root
-cd C:\Users\tezam\OneDrive\Documents\projects\mas-mcp
+cd C:\Users\<USERNAME>\OneDrive\Documents\projects\mas-mcp
 
 # 2. Create Python virtual environment using Python 3.12
 py -3.12 -m venv .venv
